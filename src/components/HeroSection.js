@@ -1,5 +1,4 @@
 import { Form,Button} from "react-bootstrap";
-import './css/style.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {faCaretDown } from '@fortawesome/free-solid-svg-icons'

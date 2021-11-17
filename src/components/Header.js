@@ -1,6 +1,5 @@
 import { Container,Button,Nav} from "react-bootstrap";
-import './css/style.css';
-import logo from './images/logo.png';
+import logo from '../includes/images/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {faPhoneAlt,faHome,faEnvelope } from '@fortawesome/free-solid-svg-icons'

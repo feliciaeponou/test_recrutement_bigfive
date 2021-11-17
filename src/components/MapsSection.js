@@ -1,6 +1,5 @@
 
 import { Container} from "react-bootstrap";
-import './css/style.css';
 
 export default function MapsSection() {
    

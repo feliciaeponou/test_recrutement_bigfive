@@ -1,7 +1,6 @@
 
 import { Container,Button} from "react-bootstrap";
-import './includes/css/style.css';
-import maintenanceImage from './includes/images/maintenance.png';
+import maintenanceImage from '../includes/images/maintenance.png';
 // import Home from "./Home";
 
 

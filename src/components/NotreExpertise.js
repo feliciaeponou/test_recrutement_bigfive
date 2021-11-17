@@ -1,8 +1,8 @@
 
 import { Container } from "react-bootstrap";
-import Footer from "./includes/Footer";
-import Header from "./includes/Header";
-import expertiseImage from './includes/images/expertise.png'
+import Header from "./Header";
+import Footer from "./Footer";
+import expertiseImage from '../includes/images/expertise.png'
 
 
 export default function NotreExpertise() {
