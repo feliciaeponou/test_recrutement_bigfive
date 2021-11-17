@@ -1,14 +1,13 @@
-import { Form,Button} from "react-bootstrap";
+import { Form,Button, Container} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {faCaretDown } from '@fortawesome/free-solid-svg-icons'
-
 
 library.add(faCaretDown);
 
 export default function HeroSection() {
     return (
-      // <Container fluid>
+      <Container fluid>
       <div className="hero-bg" >
         <div className="row">
           <div className="col-md-3"></div>
@@ -44,11 +43,9 @@ export default function HeroSection() {
 
         </div>
         
-
-        {/* <h1>This is the hero section ! </h1> */}
       </div>
       
 
-      // </Container>
+      </Container>
     );
   }
