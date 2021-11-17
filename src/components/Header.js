@@ -67,16 +67,16 @@ export default function Header() {
             <div className="col-md-8">
               <Nav as="ul">
                 <Nav.Item as="li">
-                  <Nav.Link href="./" className="nav-link">ACCUEIL</Nav.Link>
+                  <Nav.Link href={process.env.PUBLIC_URL + '/'} className="nav-link">ACCUEIL</Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Nav.Link href="/NotreExpertise" eventKey="link-1" className="nav-link">NOTRE EXPERTISE</Nav.Link>
+                  <Nav.Link href={process.env.PUBLIC_URL + '/NotreExpertise'} eventKey="link-1" className="nav-link">NOTRE EXPERTISE</Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Nav.Link href="./#contactez-nous" eventKey="link-2" className="nav-link">CONTACTEZ-NOUS</Nav.Link>
+                  <Nav.Link href={process.env.PUBLIC_URL + '/#contactez-nous'} eventKey="link-2" className="nav-link">CONTACTEZ-NOUS</Nav.Link>
                 </Nav.Item>
                 <Nav.Item as="li">
-                  <Nav.Link href="/maintenance" eventKey="link-2" className="nav-link">MAINTENANCE</Nav.Link>
+                  <Nav.Link href={process.env.PUBLIC_URL + '/maintenance'} eventKey="link-2" className="nav-link">MAINTENANCE</Nav.Link>
                 </Nav.Item>
               </Nav>
             </div>
